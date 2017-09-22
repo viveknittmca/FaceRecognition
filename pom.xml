@@ -45,14 +45,14 @@
     -->
     <repository>
         <id>central</id>
-        <name>4fbd645b7952-releases</name>
+        <name>808d50991833-releases</name>
         <url>http://ec2-52-66-167-231.ap-south-1.compute.amazonaws.com/artifactory/libs-release-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>4fbd645b7952-snapshots</name>
+        <name>808d50991833-snapshots</name>
         <url>http://ec2-52-66-167-231.ap-south-1.compute.amazonaws.com/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>   
+    </snapshotRepository>
   </distributionManagement>
 
   <dependencies>
