@@ -6,13 +6,14 @@ In this project, PCA, LDA and LPP are successfully implemented in Java for face 
 The below figure shows respective feature space:
 ![](https://lh5.googleusercontent.com/-KtrqHFBv7l8/UV1tYE4zvtI/AAAAAAAAA24/Bf8x6b3UER8/s730/Eigenfaces.jpg)
 
+
 ## Design
 Because of the limitation of Markdown, I provide [the pdf document](https://dl.dropboxusercontent.com/u/37572555/Github/Face%20Recognition/FaceRecognition.pdf) for your reference.
 
 Presentation: [https://www.dropbox.com/s/bawrbgx78kin9xf/Face%20Recognition%20Demo.pdf](https://dl.dropboxusercontent.com/u/37572555/Github/Face%20Recognition/Face%20Recognition%20Demo.pdf)
 
 
-## Usage
+## Usage/s
 As many people asked me about this project, I decided to revamp this project into a maven project and release maven dependency to make this project easier to be used by
 others. In order to use this library, this first step is to add the below dependency.
 
