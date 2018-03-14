@@ -3,7 +3,7 @@
 
 In this project, PCA, LDA and LPP are successfully implemented in Java for face recognition. After the system is trained by the training data, the feature space “eigenfaces” through PCA, the feature space “fisherfaces” through LDA and the feature space “laplacianfaces” through LPP are found using respective methods. Later in this report, W is used to represent the obtained feature space. Once W is obtained, training faces are projected to subspace defined by W to construct FaceDB. When an unknown face is needed to recognize, this test face is firstly projected onto subspace W. Afterward, the program finds the K nearest neighbors of the projected data in FaceDB. Finally, the class label is assigned to the test face according to the majority vote among the neighbors. This classification algorithm is known as K-nearest neighbor. 
 
-The below figure shows respective feature space:
+The below figure shows respective feature_space:
 ![](https://lh5.googleusercontent.com/-KtrqHFBv7l8/UV1tYE4zvtI/AAAAAAAAA24/Bf8x6b3UER8/s730/Eigenfaces.jpg)
 
 
@@ -13,7 +13,7 @@ Because of the limitation of Markdown, I provide [the pdf document](https://dl.d
 Presentation: [https://www.dropbox.com/s/bawrbgx78kin9xf/Face%20Recognition%20Demo.pdf](https://dl.dropboxusercontent.com/u/37572555/Github/Face%20Recognition/Face%20Recognition%20Demo.pdf)
 
 
-## Usage/s
+## Usage
 As many people asked me about this project, I decided to revamp this project into a maven project and release maven dependency to make this project easier to be used by
 others. In order to use this library, this first step is to add the below dependency.
 
